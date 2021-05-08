@@ -1,1 +1,4 @@
 ![splash_screen](https://user-images.githubusercontent.com/80882005/117533126-def21500-af9f-11eb-9d9a-dcea0649d169.PNG)
+![HOME](https://user-images.githubusercontent.com/80882005/117546751-d968ef00-afe0-11eb-83d7-4208bfabe95a.PNG)
+![drawer](https://user-images.githubusercontent.com/80882005/117546753-dd950c80-afe0-11eb-90c2-539899116381.PNG)
+![contact_us](https://user-images.githubusercontent.com/80882005/117546757-e1c12a00-afe0-11eb-9b00-258cfdf3f481.PNG)
