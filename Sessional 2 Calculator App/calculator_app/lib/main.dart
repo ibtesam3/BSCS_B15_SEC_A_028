@@ -78,6 +78,7 @@ class _HomeState extends State<Home> {
           child: ListView(
             children: <Widget>[
               ListTile(
+                leading: Icon(Icons.home),
                 hoverColor: Colors.blueGrey,
                 title: Text(
                   'Home',
@@ -95,6 +96,43 @@ class _HomeState extends State<Home> {
                 },
               ),
               ListTile(
+                leading: Icon(Icons.calculate),
+                hoverColor: Colors.blueGrey,
+                title: Text(
+                  'Simple',
+                  style: TextStyle(
+                    fontSize: 25.0,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black,
+                  ),
+                ),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HomePageSimple()),
+                  );
+                },
+              ),
+              ListTile(
+                leading: Icon(Icons.calculate),
+                hoverColor: Colors.blueGrey,
+                title: Text(
+                  'Hard',
+                  style: TextStyle(
+                    fontSize: 25.0,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black,
+                  ),
+                ),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HomePageHard()),
+                  );
+                },
+              ),
+              ListTile(
+                leading: Icon(Icons.contact_page),
                 hoverColor: Colors.blueGrey,
                 title: Text(
                   'Contact Us',
@@ -453,6 +491,7 @@ class HomePageSimpleState extends State<HomePageSimple> {
         child: ListView(
           children: <Widget>[
             ListTile(
+              leading: Icon(Icons.home),
               hoverColor: Colors.blueGrey,
               title: Text(
                 'Home',
@@ -470,6 +509,43 @@ class HomePageSimpleState extends State<HomePageSimple> {
               },
             ),
             ListTile(
+              leading: Icon(Icons.calculate),
+              hoverColor: Colors.blueGrey,
+              title: Text(
+                'Simple',
+                style: TextStyle(
+                  fontSize: 25.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomePageSimple()),
+                );
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.calculate),
+              hoverColor: Colors.blueGrey,
+              title: Text(
+                'Hard',
+                style: TextStyle(
+                  fontSize: 25.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomePageHard()),
+                );
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.contact_page),
               hoverColor: Colors.blueGrey,
               title: Text(
                 'Contact Us',
@@ -1074,6 +1150,7 @@ class HomePageHardState extends State<HomePageHard> {
         child: ListView(
           children: <Widget>[
             ListTile(
+              leading: Icon(Icons.home),
               hoverColor: Colors.blueGrey,
               title: Text(
                 'Home',
@@ -1091,6 +1168,43 @@ class HomePageHardState extends State<HomePageHard> {
               },
             ),
             ListTile(
+              leading: Icon(Icons.calculate),
+              hoverColor: Colors.blueGrey,
+              title: Text(
+                'Simple',
+                style: TextStyle(
+                  fontSize: 25.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomePageSimple()),
+                );
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.calculate),
+              hoverColor: Colors.blueGrey,
+              title: Text(
+                'Hard',
+                style: TextStyle(
+                  fontSize: 25.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomePageHard()),
+                );
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.contact_page),
               hoverColor: Colors.blueGrey,
               title: Text(
                 'Contact Us',
@@ -1450,6 +1564,7 @@ class ContactUs extends StatelessWidget {
         child: ListView(
           children: <Widget>[
             ListTile(
+              leading: Icon(Icons.home),
               hoverColor: Colors.blueGrey,
               title: Text(
                 'Home',
@@ -1467,6 +1582,43 @@ class ContactUs extends StatelessWidget {
               },
             ),
             ListTile(
+              leading: Icon(Icons.calculate),
+              hoverColor: Colors.blueGrey,
+              title: Text(
+                'Simple',
+                style: TextStyle(
+                  fontSize: 25.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomePageSimple()),
+                );
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.calculate),
+              hoverColor: Colors.blueGrey,
+              title: Text(
+                'Hard',
+                style: TextStyle(
+                  fontSize: 25.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomePageHard()),
+                );
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.contact_page),
               hoverColor: Colors.blueGrey,
               title: Text(
                 'Contact Us',
