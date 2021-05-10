@@ -2,3 +2,5 @@
 ![HOME](https://user-images.githubusercontent.com/80882005/117546751-d968ef00-afe0-11eb-83d7-4208bfabe95a.PNG)
 ![drawer](https://user-images.githubusercontent.com/80882005/117546753-dd950c80-afe0-11eb-90c2-539899116381.PNG)
 ![contact_us](https://user-images.githubusercontent.com/80882005/117546757-e1c12a00-afe0-11eb-9b00-258cfdf3f481.PNG)
+![simple_screen](https://user-images.githubusercontent.com/80882005/117563605-da8b3200-b05b-11eb-85d0-efc36c7f28be.PNG)
+![hard_screen](https://user-images.githubusercontent.com/80882005/117563610-e1b24000-b05b-11eb-8d65-5218ce1ea44b.PNG)
